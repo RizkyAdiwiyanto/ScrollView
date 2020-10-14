@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="A"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="B"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="C"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="D"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="E"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="F"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="G"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="H"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="I"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
